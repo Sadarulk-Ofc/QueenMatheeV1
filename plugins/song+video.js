@@ -12,7 +12,7 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-if(!q) return reply ("*_Please give me a title or url._*")
+if(!q) return reply ("*_Please give me a title or url_*")
 const search = await yts(q)
 const data = search.videos[0];
 const url = data.url
@@ -57,7 +57,7 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-if(!q) return reply ("*_Please give me a title or url._*")
+if(!q) return reply ("*_Please give me a title or url_*")
 const search = await yts(q)
 const data = search.videos[0];
 const url = data.url
