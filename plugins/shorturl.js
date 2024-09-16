@@ -15,7 +15,7 @@ if (!q && !q.startsWith("https://")) return reply("*_Please give me a url._*")
 
 let data = await fetchJson(`https://api.maher-zubair.xyz/misc/bitly?apikey=0e8eb80c94cb76da81&url=${q}`)
 
-return reply(`*Short url =* ${data.result}\n\n> ǫᴜᴇᴇɴ ᴍᴀᴛʜᴇᴇ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ`)
+return reply(`*Short url =* ${result}\n\n> ǫᴜᴇᴇɴ ᴍᴀᴛʜᴇᴇ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ`)
 
 }catch(e){
 console.log(e)
